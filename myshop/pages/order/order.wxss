@@ -1,0 +1,63 @@
+.order-input {
+  border: 1rpx solid red;
+  border-radius: 20rpx;
+  height: 56rpx;
+}
+
+.order-tip {
+  color: red;
+}
+
+.order-address {
+  font-size: 48rpx;
+}
+
+.order-name {
+  border-bottom: 1rpx solid #f99;
+  font-size: 48rpx;
+}
+
+.order-list {
+  border-bottom: 1rpx solid #f99;
+  display: block;
+}
+
+.order-list .order-product {
+  border-right: 1rpx solid #f99;
+  display: inline-block;
+  width: 33%;
+  font-size: 40rpx;
+}
+
+.order-list .order-price {
+  border-right: 1rpx solid #f99;
+  display: inline-block;
+  width: 33%;
+  font-size: 40rpx;
+}
+
+.order-list .order-number {
+  font-size: 40rpx;
+}
+
+.order-bottom {
+  background-color: #f99;
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.order-bottom .order-total {
+  position: absolute;
+  left: 20rpx;
+  top: 10rpx;
+  font-size: 56rpx;
+}
+
+.order-bottom .order-sumbit {
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  font-size: 56rpx;
+}

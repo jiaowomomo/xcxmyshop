@@ -1,0 +1,25 @@
+<view>
+  <view>
+    <swiper indicator-dots='true' autoplay='true' interval='2000' circular='true'>
+      <block wx:for='{{imgUrls}}'>
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='select-title'>
+    <text>上线商品</text>
+  </view>
+  <view>
+    <block wx:for='{{product}}'>
+      <view class='product-list'>
+        <image src='{{item.Picture}}' class='product-image'></image>
+        <text class='product-name'>{{item.Name}}</text>
+        <text class='product-buy'>销量:{{item.Buy}}</text>
+        <text class='product-price'>¥{{item.Price}}</text>
+        <button size='mini' type='primary' class='product-btn' plain='true' id='{{index}}' bindtap='addToChart'>购买</button>
+      </view>
+    </block>
+  </view>
+</view>

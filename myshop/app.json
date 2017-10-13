@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopChart/shopChart",
+    "pages/address/address",
+    "pages/register/register",
+    "pages/userLogin/userLogin",
+    "pages/user/user",
+    "pages/business/business",
+    "pages/order/order",
+    "pages/myorder/myorder"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF9999",
+    "navigationBarTitleText": "网上商店",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#000000",
+    "backgroundColor": "#E8E8E8",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shopChart/shopChart",
+        "iconPath": "pages/images/shopChart.png",
+        "selectedIconPath": "pages/images/shopChart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/business/business",
+        "iconPath": "pages/images/business.png",
+        "selectedIconPath": "pages/images/business.png",
+        "text": "商家"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "pages/images/user.png",
+        "selectedIconPath": "pages/images/user.png",
+        "text": "用户"
+      }
+    ]
+  }
+}

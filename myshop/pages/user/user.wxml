@@ -1,0 +1,12 @@
+<!--pages/user/user.wxml-->
+<view>
+  <view class='user-login' bindtap='redirectToUser'>
+    <text>{{user}}</text>
+  </view>
+  <view class='user-address' bindtap='redirectToAddress'>
+    <text>收货地址</text>
+  </view>
+  <view class='user-order' bindtap='redirectToMyOrder'>
+    <text>我的订单</text>
+  </view>
+</view>

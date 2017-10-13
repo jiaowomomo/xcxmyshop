@@ -1,0 +1,50 @@
+/* pages/index/index.wxss */
+
+swiper {
+  height: 450rpx;
+  width: 100%;
+}
+
+swiper-item image {
+  height: 100%;
+  width: 100%;
+}
+
+.select-title {
+  width: 100%;
+  padding: 20rpx 0;
+  height: 30rpx;
+  color: #ab956d;
+  text-align: center;
+}
+
+.product-list {
+  display: inline-block;
+  width: 46%;
+  background-color: #f5f6f5;
+  margin: 2% 2%;
+}
+
+.product-image {
+  display: block;
+  width: 100%;
+  height: 250rpx;
+  margin: 0 auto;
+}
+
+.product-name, .product-buy {
+  display: inline-block;
+  font-size: 32rpx;
+  margin-left: 12%;
+}
+
+.product-price {
+  display: inline-block;
+  color: #f00;
+  margin-left: 15%;
+}
+
+.product-btn {
+  display: inline-block;
+  margin-left: 5%;
+}

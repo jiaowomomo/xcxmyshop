@@ -1,0 +1,29 @@
+<view>
+  <view style='margin-top:20rpx;' class='order-name'>
+    <text>用户名:{{user}}</text>
+  </view>
+  <view style='margin-top:10rpx;' class='order-address'>收货地址:</view>
+  <view>
+    <input type='text' class='order-input' value='{{address}}' bindblur='setAddress'></input>
+    <text class='order-tip'>{{tips}}</text>
+  </view>
+  <view style='margin-top:10rpx; border-bottom:1rpx solid #f99;'>
+    <button size='mini' type='warn' plain='true' bindtap='selectAddress'>更改地址</button>
+  </view>
+  <view class='order-name'>
+    <text>订单：</text>
+  </view>
+  <view style='margin:0 2% 80rpx 2%;'>
+    <block wx:for='{{order}}'>
+      <view class='order-list'>
+        <text class='order-product'>{{item.Name}}</text>
+        <text class='order-price'>¥{{item.Price}}</text>
+        <text class='order-number'>{{item.Number}}</text>
+      </view>
+    </block>
+  </view>
+  <view class='order-bottom'>
+    <text class='order-total'>合计：¥<text>{{total}}</text></text>
+    <text class='order-sumbit' bindtap='submitChart'>下单</text>
+  </view>
+</view>

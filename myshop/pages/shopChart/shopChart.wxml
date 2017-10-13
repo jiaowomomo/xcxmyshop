@@ -1,0 +1,19 @@
+<view>
+  <view style='margin-bottom:80rpx;'>
+    <block wx:for='{{shopChart}}'>
+      <view class='chart-list'>
+        <image src='{{item.Picture}}' class='chart-image'></image>
+        <text class='chart-name'>{{item.Name}}</text>
+        <text class='chart-price'>¥{{item.Price}}</text>
+        <text id='reduce{{index}}' class='chart-reduce' bindtap='reduceCount'>-</text>
+        <text class='chart-num'>{{item.Number}}</text>
+        <text id='add{{index}}' class='chart-add' bindtap='addCount'>+</text>
+        <text id='del{{index}}' class='chart-del' bindtap='delChart'>X</text>
+      </view>
+    </block>
+  </view>
+  <view class='chart-bottom'>
+    <text class='chart-total'>合计：¥<text>{{total}}</text></text>
+    <text class='chart-sumbit' bindtap='submitChart'>结算</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view>
+  <scroll-view scroll-x='true'>
+    <block wx:for='{{order}}'>
+      <view class='myorder-list'>
+        <text class='myorder-name'>{{item.Name}}</text>
+        <text class='myorder-price'>¥{{item.Price}}</text>
+        <text class='myorder-number'>{{item.Number}}</text>
+        <text class='myorder-address'>{{item.Address}}</text>
+        <text class='myorder-time'>{{item.BuyTime}}</text>
+      </view>
+    </block>
+  </scroll-view>
+</view>

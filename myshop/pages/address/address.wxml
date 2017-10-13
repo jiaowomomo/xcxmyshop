@@ -1,0 +1,15 @@
+<view>
+  <view>
+    <text class='user-address'>收货地址</text>
+  </view>
+  <view style='margin-bottom:2%;'>
+    <input type='text' value='{{myAddress}}' class='user-input' confirm-type='done' bindblur='setAddress'></input>
+  </view>
+  <view>
+    <text class='user-tip'>{{tips}}</text>
+  </view>
+  <view>
+    <button type='warn' style='margin-bottom:2%;width:80%;' bindtap='selectAddress'>更改地址</button>
+    <button type='primary' style='width:80%;' bindtap='saveAddress'>保存</button>
+  </view>
+</view>

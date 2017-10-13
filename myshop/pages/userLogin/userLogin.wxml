@@ -1,0 +1,13 @@
+<view>
+  <view class='user-name'>
+    用户名
+    <input type='number' placeholder='请输入手机号码' maxlength='11' confirm-type='done' value='{{userName}}' class='user-input' bindblur='checkLength'></input>
+  </view>
+  <view style='margin-bottom:2%;'>
+    <text class='user-tip'>{{tips}}</text>
+  </view>
+  <view>
+    <button type='primary' class='user-btn' disabled='{{disabled}}' bindtap='userLogin'>登录</button>
+    <button type='default' class='user-btn' bindtap='register'>注册</button>
+  </view>
+</view>

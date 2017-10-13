@@ -1,0 +1,22 @@
+/* pages/user/user.wxss */
+
+.user-login {
+  text-align: center;
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #c0c0c0;
+  font-size: 48rpx;
+}
+
+.user-address {
+  text-align: center;
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #c0c0c0;
+  font-size: 48rpx;
+}
+
+.user-order {
+  text-align: center;
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #c0c0c0;
+  font-size: 48rpx;
+}

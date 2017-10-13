@@ -1,0 +1,38 @@
+.myorder-list {
+  display: block;
+  border-bottom: 1rpx solid red;
+}
+
+.myorder-list .myorder-name {
+  display: inline-block;
+  width: auto;
+  border-right: 1rpx solid red;
+  font-size: 40rpx;
+}
+
+.myorder-list .myorder-price {
+  display: inline-block;
+  width: auto;
+  border-right: 1rpx solid red;
+  font-size: 40rpx;
+}
+
+.myorder-list .myorder-number {
+  display: inline-block;
+  width: auto;
+  border-right: 1rpx solid red;
+  font-size: 40rpx;
+}
+
+.myorder-list .myorder-address {
+  display: inline-block;
+  width: auto;
+  border-right: 1rpx solid red;
+  font-size: 40rpx;
+}
+
+.myorder-list .myorder-time {
+  display: inline-block;
+  width: auto;
+  font-size: 40rpx;
+}

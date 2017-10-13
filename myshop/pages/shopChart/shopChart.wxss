@@ -1,0 +1,76 @@
+.chart-list {
+  position: relative;
+  height: 220rpx;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+
+.chart-list .chart-image {
+  width: 200rpx;
+  height: 200rpx;
+  position: absolute;
+  top: 10rpx;
+  bottom: 10rpx;
+  left: 20rpx;
+}
+
+.chart-list .chart-name {
+  position: absolute;
+  top: 10rpx;
+  left: 240rpx;
+}
+
+.chart-list .chart-price {
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+}
+
+.chart-list .chart-reduce {
+  position: absolute;
+  bottom: 10rpx;
+  left: 240rpx;
+  font-size: 64rpx;
+}
+
+.chart-list .chart-num {
+  position: absolute;
+  bottom: 10rpx;
+  left: 300rpx;
+  font-size: 56rpx;
+}
+
+.chart-list .chart-add {
+  position: absolute;
+  bottom: 10rpx;
+  left: 360rpx;
+  font-size: 64rpx;
+}
+
+.chart-list .chart-del {
+  position: absolute;
+  bottom: 10rpx;
+  right: 20rpx;
+  font-size: 56rpx;
+}
+
+.chart-bottom {
+  background-color: #f99;
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.chart-bottom .chart-total {
+  position: absolute;
+  left: 20rpx;
+  top: 10rpx;
+  font-size: 56rpx;
+}
+
+.chart-bottom .chart-sumbit {
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  font-size: 56rpx;
+}

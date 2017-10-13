@@ -1,0 +1,16 @@
+/* pages/register/register.wxss */
+
+.user-name {
+  margin: 2% 0;
+  font-size: 48rpx;
+}
+
+.user-input {
+  border: 1px solid red;
+  border-radius: 20rpx;
+  height: 56rpx;
+}
+
+.user-tip {
+  color: red;
+}
